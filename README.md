@@ -1,6 +1,6 @@
 #  Test Automation Framework - SauceDemo
 
-![Java](https://img.shields.io/badge/Java-25-orange)
+![Java](https://img.shields.io/badge/Java-21-orange)
 ![Selenium](https://img.shields.io/badge/Selenium-4.27.0-green)
 ![TestNG](https://img.shields.io/badge/TestNG-7.10.2-blue)
 ![Build](https://img.shields.io/badge/Build-Maven-purple)
@@ -17,7 +17,7 @@ This project is a robust, modular, and scalable **Test Automation Framework** de
 * **BaseTest Inheritance:** Centralized driver setup (`@BeforeMethod`) and teardown (`@AfterMethod`) logic to keep test classes clean.
 
 ### 2. Cross-Browser & Parallel Execution
-* **Multi-Browser Support:** Tests run seamlessly on **Google Chrome** and **Microsoft Edge**.
+* **Multi-Browser Support:** Framework is architected to support **Chrome**, **Edge**, and **Firefox** (currently executing Chrome/Edge in CI).
 * **Parallel Execution:** Configured via `testng.xml` (`parallel="tests"`) to execute Chrome and Edge tests **simultaneously**, significantly reducing test runtime.
 * **Hybrid Driver Management:**
     * **Chrome:** Managed automatically via `WebDriverManager`.
@@ -39,12 +39,12 @@ This project is a robust, modular, and scalable **Test Automation Framework** de
 ## 🛠️ Technology Stack
 
 | Component | Technology | Version |
-| :--- | :--- | :--- |
-| **Language** | Java JDK | 25 |
-| **Web Driver** | Selenium WebDriver | 4.27.0 |
-| **Test Runner** | TestNG | 7.10.2 |
-| **Build Tool** | Maven | 3.x |
-| **Browsers** | Chrome, Edge | Latest |
+| :--- | :--- |:--------|
+| **Language** | Java JDK | 21      |
+| **Web Driver** | Selenium WebDriver | 4.27.0  |
+| **Test Runner** | TestNG | 7.10.2  |
+| **Build Tool** | Maven | 3.x     |
+| **Browsers** | Chrome, Edge | Latest  |
 
 ---
 
