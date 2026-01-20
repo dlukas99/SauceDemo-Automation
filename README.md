@@ -61,6 +61,7 @@ src/test/java
 │   └── ShoppingTest.java   # E2E scenarios (Add to cart, Logout)
 └── resources           # Test Data & Drivers
 
+```
 ---
 
 
