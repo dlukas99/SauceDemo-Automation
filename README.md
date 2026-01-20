@@ -6,11 +6,10 @@
 ![Build](https://img.shields.io/badge/Build-Maven-purple)
 
 ## 📌 Project Overview
-This project is a robust, modular, and scalable **Test Automation Framework** developed for the [SauceDemo](https://www.saucedemo.com/) e-commerce platform. It demonstrates advanced automation techniques including **Page Object Model (POM)**, **Cross-Browser Testing**, **Parallel Execution**, and **Data-Driven Testing**.
-
+This project is a robust, modular, and scalable **Test Automation Framework** developed for the [SauceDemo](https://www.saucedemo.com/) e-commerce platform. It demonstrates advanced automation techniques including **Page Object Model (POM)**, **Object-Oriented Programming (OOP)** principles, **Cross-Browser Testing**, **Parallel Execution**, and **Data-Driven Testing**. The project is version-controlled with a properly configured **.gitignore**.
 ---
 
-##  Key Features (Why this project stands out)
+##  Key Features 
 
 ### 1. Advanced Architecture & Design
 * **Page Object Model (POM):** Strict separation between test logic (`tests` package) and UI locators/actions (`pages` package) for maintainability.
